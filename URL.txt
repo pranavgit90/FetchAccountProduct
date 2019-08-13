@@ -1,0 +1,5 @@
+swagger:
+http://localhost:8080/swagger-ui.html#/
+
+h2:
+http://localhost:8080/h2-console/login.jsp?jsessionid=5336e51f8dbcbc16d3ba06fb93919ee2

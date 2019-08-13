@@ -1,0 +1,36 @@
+{
+	"variables": [],
+	"info": {
+		"name": "FetchAccountProduct",
+		"_postman_id": "74ce27e9-b36c-4a33-b2e0-37651a2fd243",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local_fetch_product_label_code",
+			"request": {
+				"url": "http://localhost:8080/account/fetch-productcode",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Og==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"accountId\" : \"60000012\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

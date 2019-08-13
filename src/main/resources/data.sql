@@ -1,0 +1,3 @@
+INSERT INTO account_product (ACCOUNT_ID, PRODUCT_LBL_CODE)
+VALUES
+    ('60000012', 'PL_2052');
